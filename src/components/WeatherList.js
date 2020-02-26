@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { fetchWeather } from "../actions";
 import PropTypes from "prop-types";
+import './weatherList.css'
 
 class WeatherList extends React.Component {
   componentDidMount() {

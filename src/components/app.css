@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+}
+.sixteen.column {
+    height: 50vh;
+    background-image: url("../resource/rain.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+.six.column {
+    display: table-cell;
+    vertical-align: middle;
+    height: 50vh;
+    position: relative;
+    background-color: rgba(207, 227, 243, 0.945);
+}
+.c {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.ten.column {
+    height: 50vh;
+    position: relative;
+    background-color: rgba(207, 227, 243, 0.945);
+    /* background: rgb(210,245,246);
+    background: radial-gradient(circle, rgba(210,245,246,0.05085784313725494) 54%, rgba(113,224,223,0.5942752100840336) 100%); */
+}
+/* .ui.padded.equal.height.grid {
+    height: 100vh;
+    background-image: url("../resource/cloud.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+} */

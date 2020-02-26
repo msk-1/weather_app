@@ -1,15 +1,24 @@
 import React from 'react';
-import Temperature from './Temperature';
 import WeatherList from './WeatherList';
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import './app.css';
 
-const App = () => (  
-  <div className='ui grid'>
-    <div class='row'>
-      asdfasdf
-    </div>
-    <div class='row'>
-      <div class="four wide column">Lorem Ipsum(略)</div>
-      <div class="twelve wide column"><WeatherList /></div>
+const App = () => (
+  <div class="ui padded equal height grid">
+    <div class="sixteen wide stretched column">
+      <div class="ui equal height grid">
+        <div class="sixteen wide column"></div>
+        <div class="six wide column">
+          <div className='c'>
+            <TwitterTimelineEmbed
+              sourceType="profile"
+              screenName="saurabhnemade"
+              options={{height: 380, width: 600}}
+            />  
+          </div>
+        </div>
+        <div class="ten wide column"><WeatherList /></div>
+      </div>
     </div>
   </div>
 )
