@@ -14,7 +14,7 @@ const App = () => (
               sourceType="profile"
               screenName="saurabhnemade"
               options={{height: 380, width: 600}}
-            />  asdf
+            />
           </div>
         </div>
         <div class="ten wide column"><WeatherList /></div>
